@@ -4,7 +4,6 @@ import fp from 'fastify-plugin'
 import type * as tap from 'tap'
 
 import App from '../src/app'
-import { initGraphql } from '../src/graphql'
 
 export type Test = (typeof tap)['Test']['prototype']
 
@@ -23,9 +22,6 @@ async function build(t: Test) {
   // are exposed for testing purposes, this is
   // different from the production setup
   void app.register(fp(App), await config())
-
-  // Init graphql
-  void initGraphql(app)
 
   await app.ready()
 
