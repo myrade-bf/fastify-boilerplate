@@ -19,40 +19,6 @@
           }
         }
       }
-    },
-    "/user/login": {
-      "post": {
-        "tags": [
-          "Users"
-        ],
-        "requestBody": {
-          "description": "Login to the application",
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "username": {
-                    "type": "string"
-                  },
-                  "password": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "username",
-                  "password"
-                ]
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "login success with token"
-          }
-        }
-      }
     }
   },
   "components": {},
@@ -60,10 +26,6 @@
     {
       "name": "Example",
       "description": "Hello world end point"
-    },
-    {
-      "name": "Users",
-      "description": "User management and login"
     }
   ]
 }
