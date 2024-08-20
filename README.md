@@ -2,21 +2,14 @@
 
 ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
-[![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
+[![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://x.com/RambautETH)
 
 > Fastify Typescript Starter
-
-<!-- [![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy?repo=https://github.com/jellydn/fastify-starter) -->
 
 ## Features
 
 - Swagger documentation generator for Fastify https://github.com/fastify/fastify-swagger
 - Generates swagger/openapi specification based on jsDoc comments and YAML files. https://github.com/Surnet/swagger-jsdoc
-- Mercurius is a GraphQL adapter for Fastify https://mercurius.dev/
-- Code-GraphQL Nexus
-  Declarative, Code-First GraphQL Schemas for JavaScript/TypeScript https://nexusjs.org
-- Log and tracking with [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx)
-- And some useful plugins as https://github.com/fastify/fastify-env, https://github.com/fastify/fastify-cors, https://github.com/fastify/fastify-helmet
 
 ## Install
 
@@ -36,48 +29,6 @@ Open below link on your browser with localhost
 http://localhost:3000/documentation or try with demo server https://fastify-starter.fly.dev/documentation
 
 ![https://gyazo.com/6cf6c02cb36f9d4fababdde1ad071aba.gif](https://gyazo.com/6cf6c02cb36f9d4fababdde1ad071aba.gif)
-
-## GraphQL Client IDE
-
-Open below link on your browser with localhost
-http://localhost:3000/altair or try with demo server https://fastify-starter.fly.dev/altair
-
-![https://gyazo.com/49e9af06a6a13390abefd5c58a1296f7.png](https://gyazo.com/49e9af06a6a13390abefd5c58a1296f7.png)
-
-## GraphQL
-
-If you are new to GraphQL, please watch the below video for more information.
-[![IT Man - Talk #27 - GraphQL 2022 Report Insights [Vietnamese]](https://i.ytimg.com/vi/_wmldiEdwPM/hqdefault.jpg)](https://www.youtube.com/watch?v=_wmldiEdwPM)
-
-Run below command in your terminal/CLI
-
-```sh
-curl -H "Content-Type:application/graphql" -XPOST -d "query { hello }" http://localhost:3000/graphql | jq .
-```
-
-Output:
-
-```
-{
-  "data": {
-    "hello": "Hello World!"
-  }
-}
-```
-
-## Run tests
-
-```sh
-pnpm test
-```
-
-## Pre-commit hooks
-
-This project uses [Pre-commit](https://pre-commit.com/) to enforce code quality. You can install it by running:
-
-```sh
-pre-commit install
-```
 
 ## Deployment
 
@@ -115,11 +66,11 @@ We use GitHub Actions for continuous integration and deployment. Anything that g
 
 ## Author
 
-👤 **Huynh Duc Dung**
+👤 **Dave Vasu**
 
-- Website: https://productsway.com/
-- Twitter: [@jellydn](https://twitter.com/jellydn)
-- Github: [@jellydn](https://github.com/jellydn)
+- Website: https://www.davegod.site/
+- Twitter: [@RambautETH](https://x.com/RambautETH)
+- Github: [@Bambi](https://github.com/bambi-bf)
 
 ## Show your support
 
@@ -129,4 +80,4 @@ We use GitHub Actions for continuous integration and deployment. Anything that g
 
 Give a ⭐️ if this project helped you!
 
-[![Stargazers repo roster for @jellydn/fastify-starter](https://reporoster.com/stars/jellydn/fastify-starter)](https://github.com/jellydn/fastify-starter/stargazers)
+[![Stargazers repo roster for @bambi-bf/fastify-starter]](https://github.com/bambi-bf/fastify-starter/stargazers)
